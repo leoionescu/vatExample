@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-direction-row {
+    flex-direction: column;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.padding-2 {
+    padding: 2rem;
+}
+
+.margin-top-1 {
+    margin-top: 1rem;
+}
+
+.margin-right-075 {
+    margin-right: 0.75rem;
+}
+
+.margin-bottom-075 {
+    margin-bottom: 0.75rem;
+}
+.margin-bottom-1 {
+    margin-bottom: 1rem;
+}
+.margin-top-05 {
+    margin-top: 0.5rem;
+}
+
+.form {
+    min-height: 300px;
+}
+
+.background-light {
+    background-color: rgb(49, 49, 96);
+}
+
+.background-dark {
+    background-color: rgb(27, 27, 73);
+}
